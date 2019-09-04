@@ -19,6 +19,10 @@
         {
             "name": "Michele Angioni",
             "email": "michele.angioni@gmail.com"
+        },
+        {
+            "name": "Daniel Leppänen",
+            "email": "daniel.leppanen@gmail.com"
         }
     ],
     "require": {
