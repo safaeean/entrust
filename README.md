@@ -1,4 +1,6 @@
-# ENTRUST (Laravel 5 Package)
+# ENTRUST (Laravel 6 Package)
+
+> Updated by Halpdesk to be compatible with Laravel 6.0
 
 [![Build Status](https://travis-ci.org/Zizaco/entrust.svg)](https://travis-ci.org/Zizaco/entrust)
 [![Version](https://img.shields.io/packagist/v/Zizaco/entrust.svg)](https://packagist.org/packages/zizaco/entrust)
@@ -49,7 +51,7 @@ contains the latest entrust version for Laravel 4.
 Zizaco\Entrust\EntrustServiceProvider::class,
 ```
 
-3) In the same `config/app.php` and add the following to the `aliases ` array: 
+3) In the same `config/app.php` and add the following to the `aliases ` array:
 
 ```php
 'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
@@ -389,18 +391,18 @@ Three directives are available for use within your Blade templates. What you giv
 
 ```php
 @role('admin')
-    <p>This is visible to users with the admin role. Gets translated to 
+    <p>This is visible to users with the admin role. Gets translated to
     \Entrust::role('admin')</p>
 @endrole
 
 @permission('manage-admins')
-    <p>This is visible to users with the given permissions. Gets translated to 
-    \Entrust::can('manage-admins'). The @can directive is already taken by core 
+    <p>This is visible to users with the given permissions. Gets translated to
+    \Entrust::can('manage-admins'). The @can directive is already taken by core
     laravel authorization package, hence the @permission directive instead.</p>
 @endpermission
 
 @ability('admin,owner', 'create-post,edit-user')
-    <p>This is visible to users with the given abilities. Gets translated to 
+    <p>This is visible to users with the given abilities. Gets translated to
     \Entrust::ability('admin,owner', 'create-post,edit-user')</p>
 @endability
 ```
@@ -550,5 +552,5 @@ Entrust is free software distributed under the terms of the MIT license.
 
 Support follows PSR-1 and PSR-4 PHP coding standards, and semantic versioning.
 
-Please report any issue you find in the issues page.  
+Please report any issue you find in the issues page.
 Pull requests are welcome.
