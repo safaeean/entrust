@@ -12,7 +12,7 @@ class EntrustAbilityTest extends MiddlewareTest
         | Set
         |------------------------------------------------------------
         */
-        $guard = m::mock('Illuminate\Contracts\Auth\Guard[guest]');
+        $guard = Mockery::mock('Illuminate\Contracts\Auth\Guard[guest]');
         $request = $this->mockRequest();
 
         $middleware = new EntrustAbility($guard);
@@ -42,7 +42,7 @@ class EntrustAbilityTest extends MiddlewareTest
         | Set
         |------------------------------------------------------------
         */
-        $guard = m::mock('Illuminate\Contracts\Auth\Guard');
+        $guard = Mockery::mock('Illuminate\Contracts\Auth\Guard');
         $request = $this->mockRequest();
 
         $middleware = new EntrustAbility($guard);
@@ -72,7 +72,7 @@ class EntrustAbilityTest extends MiddlewareTest
         | Set
         |------------------------------------------------------------
         */
-        $guard = m::mock('Illuminate\Contracts\Auth\Guard');
+        $guard = Mockery::mock('Illuminate\Contracts\Auth\Guard');
         $request = $this->mockRequest();
 
         $middleware = new EntrustAbility($guard);
@@ -102,7 +102,7 @@ class EntrustAbilityTest extends MiddlewareTest
         | Set
         |------------------------------------------------------------
         */
-        $guard = m::mock('Illuminate\Contracts\Auth\Guard');
+        $guard = Mockery::mock('Illuminate\Contracts\Auth\Guard');
         $request = $this->mockRequest();
 
         $middleware = new EntrustAbility($guard);
@@ -127,9 +127,9 @@ class EntrustAbilityTest extends MiddlewareTest
 
     protected function mockRequest()
     {
-        $user = m::mock('_mockedUser')->makePartial();
+        $user = Mockery::mock('_mockedUser')->makePartial();
 
-        $request = m::mock('Illuminate\Http\Request')
+        $request = Mockery::mock('Illuminate\Http\Request')
             ->shouldReceive('user')
             ->andReturn($user)
             ->getMock();

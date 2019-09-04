@@ -16,5 +16,7 @@ Thumbs.db
 .env.*.php
 .env.php
 
+.phpunit.result.cache
+
 # sublime phpintel plugin
 /.phpintel
