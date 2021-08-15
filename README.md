@@ -1,13 +1,11 @@
-# ENTRUST (Laravel 6 Package)
+# ENTRUST (Laravel 7 Package)
 
-> Updated by Halpdesk to be compatible with Laravel 6.0
+> Updated by Safaeean to be compatible with Laravel 7.0
 
-[![Build Status](https://travis-ci.org/Zizaco/entrust.svg)](https://travis-ci.org/Zizaco/entrust)
-[![Version](https://img.shields.io/packagist/v/Zizaco/entrust.svg)](https://packagist.org/packages/zizaco/entrust)
-[![License](https://poser.pugx.org/zizaco/entrust/license.svg)](https://packagist.org/packages/zizaco/entrust)
-[![Total Downloads](https://img.shields.io/packagist/dt/zizaco/entrust.svg)](https://packagist.org/packages/zizaco/entrust)
-
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/cc4af966-809b-4fbc-b8b2-bb2850e6711e/small.png)](https://insight.sensiolabs.com/projects/cc4af966-809b-4fbc-b8b2-bb2850e6711e)
+[![Build Status](https://api.travis-ci.org/safaeean/zizaco-entrust-laravel-7.0.svg)](https://travis-ci.org/safaeean/zizaco-entrust-laravel-7.0)
+[![Version](https://img.shields.io/packagist/v/safaeean/zizaco-entrust-laravel-7.0.svg)](https://packagist.org/packages/safaeean/zizaco-entrust-laravel-7.0)
+[![License](https://poser.pugx.org/safaeean/zizaco-entrust-laravel-7.0/license.svg)](https://packagist.org/packages/safaeean/zizaco-entrust-laravel-7.0)
+[![Total Downloads](https://img.shields.io/packagist/dt/safaeean/zizaco-entrust-laravel-7.0.svg)](https://packagist.org/packages/zizaco/entrust)
 
 Entrust is a succinct and flexible way to add Role-based Permissions to **Laravel 5**.
 
@@ -42,7 +40,11 @@ contains the latest entrust version for Laravel 4.
 1) In order to install Laravel 5 Entrust, just add the following to your composer.json. Then run `composer update`:
 
 ```json
-"zizaco/entrust": "5.2.x-dev"
+"safaeean/zizaco-entrust-laravel-7.0": "1.9.4"
+```
+Or run this command
+```json
+composer require safaeean/zizaco-entrust-laravel-7.0
 ```
 
 2) Open your `config/app.php` and add the following to the `providers` array:
