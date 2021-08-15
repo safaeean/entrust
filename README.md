@@ -37,7 +37,7 @@ contains the latest entrust version for Laravel 4.
 
 ## Installation
 
-1) In order to install Laravel 5 Entrust, just add the following to your composer.json. Then run `composer update`:
+1) In order to install Laravel 7 Entrust, just add the following to your composer.json. Then run `composer update`:
 
 ```json
 "safaeean/zizaco-entrust-laravel-7.0": "1.9.4"
