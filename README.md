@@ -2,7 +2,7 @@
 
 > Updated by Safaeean to be compatible with Laravel 7.0
 
-[![Build Status](https://api.travis-ci.org/safaeean/zizaco-entrust-laravel-7.0.svg)](https://travis-ci.org/safaeean/zizaco-entrust-laravel-7.0)
+[![Build Status](https://api.travis-ci.org/safaeean/entrust.svg)](https://travis-ci.org/safaeean/entrust)
 [![Version](https://img.shields.io/packagist/v/safaeean/zizaco-entrust-laravel-7.0.svg)](https://packagist.org/packages/safaeean/zizaco-entrust-laravel-7.0)
 [![License](https://poser.pugx.org/safaeean/zizaco-entrust-laravel-7.0/license.svg)](https://packagist.org/packages/safaeean/zizaco-entrust-laravel-7.0)
 [![Total Downloads](https://img.shields.io/packagist/dt/safaeean/zizaco-entrust-laravel-7.0.svg)](https://packagist.org/packages/zizaco/entrust)
@@ -40,7 +40,7 @@ contains the latest entrust version for Laravel 4.
 1) In order to install Laravel 7 Entrust, just add the following to your composer.json. Then run `composer update`:
 
 ```json
-"safaeean/zizaco-entrust-laravel-7.0": "1.9.4"
+"safaeean/zizaco-entrust-laravel-7.0": "1.9.5"
 ```
 Or run this command
 ```json
