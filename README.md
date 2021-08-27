@@ -5,7 +5,7 @@
 [![Build Status](https://api.travis-ci.org/safaeean/entrust.svg)](https://travis-ci.org/safaeean/entrust)
 [![Version](https://img.shields.io/packagist/v/safaeean/zizaco-entrust-laravel-7.0.svg)](https://packagist.org/packages/safaeean/zizaco-entrust-laravel-7.0)
 [![License](https://poser.pugx.org/safaeean/zizaco-entrust-laravel-7.0/license.svg)](https://packagist.org/packages/safaeean/zizaco-entrust-laravel-7.0)
-[![Total Downloads](https://img.shields.io/packagist/dt/safaeean/zizaco-entrust-laravel-7.0.svg)](https://packagist.org/packages/zizaco/entrust)
+[![Total Downloads](https://img.shields.io/packagist/dt/safaeean/zizaco-entrust-laravel-7.0.svg)](https://packagist.org/packages/safaeean/zizaco-entrust-laravel-7.0)
 
 Entrust is a succinct and flexible way to add Role-based Permissions to **Laravel 5**.
 
