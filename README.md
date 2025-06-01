@@ -1,6 +1,6 @@
 # ENTRUST (Laravel 7 Package)
 
-> Updated by Safaeean to be compatible with Laravel 7.0
+> Updated by Safaeean to be compatible with Laravel 7,8,9,10,11
 
 [![Build Status](https://api.travis-ci.org/safaeean/entrust.svg)](https://travis-ci.org/safaeean/entrust)
 [![Version](https://img.shields.io/packagist/v/safaeean/zizaco-entrust-laravel-7.0.svg)](https://packagist.org/packages/safaeean/zizaco-entrust-laravel-7.0)
